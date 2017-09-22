@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #353535;
+  color: white;
+  padding: 20px;
+  font-family: Monospace;
+  margin: auto;
+  max-width: 500px;
+}
+
+h2 {
+  padding-bottom: 8px;
+  border-bottom: 4px solid white;
+}
+
+.badge, .logo {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.logo {
+  flex: 1;
+  padding: 10px;
+  background: white;
+  margin-top: 40px;
+}
+
+a,
+a:visited {
+  color: white;
+  text-decoration:none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
